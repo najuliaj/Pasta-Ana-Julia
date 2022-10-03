@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.container div{
+border: 1px #ccc solid;
+padding: 15px;
+}
+
+.container{
+display: flex;
+}
+
+.itembox1 {
+flex: 1;
+order: 1;
+}
+
+.intembox2 {
+flex: 1;
+order: 2;
+}
+
+.itembox3 {
+flex: 1;
+order: 3;
+}

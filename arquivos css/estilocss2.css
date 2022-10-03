@@ -1,0 +1,55 @@
+@charset "utf-8" ;
+
+* {
+margin: 0;
+padding: 0;
+border: none;
+top: 0;
+}
+h1,h2{
+color: brown;
+}
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+color: rgb(0, 0, 0);
+line-height: 1.6;
+}
+
+.showcase {
+background-image: url('indiapng.webp');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+} 
+
+a {
+text-decoration: none;
+color: black;
+}
+
+.btn {
+background-color: blue;
+color: aqua;
+padding: 10px 15px;
+border: none;
+}
+
+.container {
+width: 60%;
+margin: 5% 20%;
+}
+
+.box-1, .box-2{
+background-color: rgb(234, 211, 255);
+color: darkmagenta;
+border-right: 5px rgb(180, 105, 255) solid;
+border-left: 5px rgb(180, 105, 255) solid;
+border-top: 5px rgb(180, 105, 255) solid;
+border-bottom:5px rgb(180, 105, 255) solid ;
+border-width: 3px;
+border-bottom-width: 10px;
+border-top-style: dotted;
+padding: 20px;
+}

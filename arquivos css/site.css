@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<title>Curiosidade sobre gatos</title>
+</head>
+
+<body>
+    h1 {background-color: #191919;
+        color: #eee;
+        font-family: Georgia, "Times New Roman", serif; 
+    }
+        <div style="text-align:center ">
+            <div style="width:60% ; margin: 20% ; margin-top: 5%;">
+
+    <header>
+        <h1>Curiosidade sobre gatos</h1>
+        <a href="http://127.0.0.1:5500/site.html">Pagina 1</a> - <a href="http://127.0.0.1:5500/site2.html">Pagina 2</a>
+    </header>
+   
+<br> <br>
+
+    <img src="imagem3.jpg" alt="Gatinhos" width="500" height="400">
+    
+  
+    <p>Os gatos são animais fascinantes e surpreendentemente misteriosos. Possuem hábitos peculiares, comportamentos imprevisíveis e são extremamente curiosos. Quem é apaixonado por felinos já percebeu que os bichanos possuem personalidade bem interessantes.
+    Isso desperta uma grande curiosidade para conhecer mais sobre as peculiaridades que só os gatinhos têm e que muitas pessoas não sabem. Além das curiosidades, existe muita falta de conhecimento sobre esses animais como acreditar na lenda do gato preto ou que eles têm sete vidas. Essas inverdades prejudicam a integridade dos animais, já que muitos agem de maneira violenta com os gatos pretos e ignoram cuidados básicos com seus pets acreditando que eles são “super animais” e podem sobreviver a situações perigosas.</p>
+
+</div>
+    <footer>
+        <small>@ios</small>
+    </footer>
+   
+</div>
+</body>
+</html>
+

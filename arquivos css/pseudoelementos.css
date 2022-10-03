@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+body {
+background-color: bisque;
+color: darkolivegreen;
+font: normal 16px Arial, Helvetica, sans-serif;
+line-height: 1.6;
+margin: 0;
+}
+
+a{
+text-decoration: dotted;
+color: black;
+}
+
+a:hover {
+color: rgb(176, 14, 130);
+}
+
+a:active {
+color: rgb(26, 181, 137);
+}
+
+.container {
+width: 80%;
+margin: auto;
+}
+
+.btn {
+background-color: #333;
+color: #fff;
+padding: 10px 15px;
+border: none;
+}
+
+
+.btn :hover{
+background-color: rgb(40, 159, 163);
+color: #fff;
+}
+
+.categorias {
+margin-top: 20px;
+border:1px #333 solid;
+border-radius: 15px;
+padding: 10px;
+}
+
+.categorias h2 {
+text-align: center;
+}
+
+.categorias ul {
+list-style: none;
+padding: 15px;
+}
+
+.categoras li {
+padding-bottom: 8px;
+border-bottom: dashed 1 px #333;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>exemplo de elemento form</title>
+</head>
+<body>
+    
+    <header>
+        <h1><div style="color: lightcoral">Exemplo de formulario</div></h1>
+    </header>
+    <article>
+        <form  method="post" id="contato" action="maito:anajuliajanning@gmail.com" oninput="result.value=parseInt(valor_01.value)+parseInt(valor_02.value)">
+            <fieldset>
+                <legend>Informações principais</legend>
+            <label for="cNome">Seu nome</label>
+            <br>
+            <input autocomplete="off" type="text" size="50" name="exemplo" id="exemplo" required="required"/>
+            <br><br>
+            <p>Onde você mora?</p>
+            <input type="radio" name="exemplo" id="exemplo" value="A">
+            <label for="bairro">Norte</label>
+            <br>
+            <input type="radio" name="exemplo2" id="exemplo2" value="B">
+            <label for="bairro">Sul </label>
+            <br>
+            <input type="radio" name="exemplo3" id="exemplo3" value="C">
+            <label for="bairro">Leste</label>
+            <br>
+            <input type="radio" name="exemplo3" id="exemplo3" value="C">
+            <label for="bairro">Oeste</label>
+            </fieldset>
+            <br> <br>
+            <fieldset>
+                <legend>Informações extras</legend>
+                <p>De qual animal você gosta?</p>
+            <input type="checkbox" name="animal1" id="animal1" value="Gato">
+            <label for="animal1">Gato</label><br>
+            <input type="checkbox" name="animal2" id="animal2" value="Cachorro">
+            <label for="animal2">Cachorro</label><br>
+            <input type="checkbox" name="animal3" id="animal3" value="Peixe">
+            <label for="animal3">Peixe</label><br>
+            <input type="checkbox" name="animal4" id="animal4" value="Coelho">
+            <label for="animal4">Coelho</label><br>
+            <input type="checkbox" name="animal5" id="animal5" value="Cavalo">
+            <label for="animal5">Cavalo</label>
+            <br><br>
+
+            <label for="time">Selecione seu time:</label>
+            <select id="time" name="time">
+                <option value="palmeiras">Palmeiras</option>
+                <option value="flamengo">Flamengo</option>
+                <option value="corinthias">Corinthias</option>
+                <option value="são paulo">São Paulo</option>
+                <option value="gremio">Grêmio</option>
+                </select> 
+            </fieldset>
+                <br><br>
+                <fieldset>
+                    <legend>Sobre sua cidade</legend>
+                <label for="city">Em que cidade você mora?</label>
+                <input autocomplete="on" list="cidade" id="city" name="city" placeholder="sua cidade"/>
+                <datalist id="cidade">
+                    <option value="joinville">Joinville</option>
+                    <option value="florianopolis">Florianopolis</option>
+                    <option value="blumenal">Blumenal</option>
+                    <option value="são francisco">São Francisco</option>
+                    <option value="jaraguá">Jaraguá</option>
+                    <option value="balneario">Balneario</option>
+                    <option value="são bento">São Bento</option>
+                </datalist> <br> <br>
+                <p>O quanto você gosta de morar na sua cidade?</p>
+                0
+                <input type="range" id="valor" name="valor"/>
+                100 +
+                <input type="number" id="valor_02" name="valor_02" value="50" /> 
+                =
+                <output name="result" for="valor valor_02"></output>
+                </fieldset>
+                <br> <br>
+                <fieldset>
+                    <legend>Sua opinião</legend>
+               <p>Comente com detalhes sobre como é morar na sua cidade e cite pontos turisticos.</p>
+              <textarea name="comentario" rows="10" cols="50" placeholder="Deixe seu comentario aqui!"required> </textarea>
+                 </fieldset> 
+                 <br> <br>
+
+
+
+
+
+            <br> <br>
+            <input type="submit" value="Enviar"/>
+            <br> <br>
+        </form>
+    </article>
+    <br><br>
+    <footer>
+        <small>Colegio censupeg</small>
+        </footer>
+        
+</body>
+</html>
